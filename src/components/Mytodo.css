@@ -12,6 +12,7 @@
       rgb(117, 100, 225) 0%,
       rgb(120, 123, 148) 100%
     );
+   
   }
   .todo-app {
     display: flex;
@@ -28,8 +29,10 @@
   
   h1 {
     margin: 32px 0;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 24px;
+    justify-content: center;
+    
   }
   
   .complete {

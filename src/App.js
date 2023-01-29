@@ -12,9 +12,7 @@ import { Alert } from 'react-bootstrap';
 import { useEffect } from "react";
 import { auth } from "./fire";
 import { useState } from "react";
-import Home from "./components/Home"
 import Mytodo from "./components/Mytodo";
-
 
 
 function App() {
