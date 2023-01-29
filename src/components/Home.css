@@ -1,0 +1,23 @@
+.Home
+{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:tomato;
+    padding-top: 20px;
+}
+.Home-Content
+{
+    width: 30ch;
+}
+
+@media(max-width:360px)
+{
+    .Home-Content
+    {
+        width: 90vw;
+    }
+}
